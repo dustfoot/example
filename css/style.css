@@ -9,3 +9,7 @@ body {
    height: 700px;
    text-align: center;
 }
+
+.con1 img {
+   padding-bottom: 2%;
+}
