@@ -30,3 +30,17 @@ body {
    padding-top: 10px;
    font-size: 3.5em;
 }
+
+
+.header2 {
+   font-family: 'Ubuntu', sans-serif;
+   font-size: 2.5em;
+   padding-bottom: 30px;
+}
+
+p {
+   font-family: 'Montserrat', sans-serif;
+   line-height: 30px;
+   font-size: 1.3em;
+   font-weight: 400;
+}
