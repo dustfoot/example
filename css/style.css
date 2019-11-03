@@ -2,3 +2,10 @@ body {
    justify-content: center;
    align-items: center;
 }
+
+.top-container {
+   background-image: url("../images/background.jpg");
+   background-size: cover;
+   height: 700px;
+   text-align: center;
+}
