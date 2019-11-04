@@ -1,6 +1,6 @@
 # DELANI-STUDIO
 
-#### DELANI-STUDIO is a landing page for a web-design studio that provides a description of what we do, May 5th 2019
+#### DELANI-STUDIO is a landing page for a web-design studio that provides a description of what we do, nov 4th 2019
 
 #### By **kaarshe**
 
