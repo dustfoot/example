@@ -1,46 +1,202 @@
-body {
-   justify-content: center;
-   align-items: center;
-}
-
-.top-container {
-   background-image: url("../images/background.jpg");
-   background-size: cover;
-   height: 700px;
+.row1 {
+   width: 100%;
+   height: 600px;
+   padding: 0px 20px;
+   margin-right: -15px;
+   margin-left: -15px;
    text-align: center;
 }
 
-.con1 img {
-   padding-bottom: 2%;
+.row1 h1 {
+   position: relative;
+   padding-top: 10%;
+   font-weight: bold;
 }
 
-.con1 {
-   padding: 10%;
-   color: #ffff;
+.paragraph1 {
+   font-weight: bold;
+   font-family: Signika Negative, sans-serif;
+   font-size: 35px;
 }
 
-.con1 p {
-   font-size: 1.5em;
-   padding-top: 1%;
+.row3 {
+   width: 100%;
+   height: 300px;
+   padding: 0px 20px;
+   margin-right: -15px;
+   margin-left: -15px;
+   text-align: center;
+   background-size: cover;
 }
 
-
-.header1 {
-   font-family: 'Ubuntu', sans-serif;
-   padding-top: 10px;
-   font-size: 3.5em;
+.row3 h1 {
+   padding-top: 10%;
 }
 
-
-.header2 {
-   font-family: 'Ubuntu', sans-serif;
-   font-size: 2.5em;
-   padding-bottom: 30px;
+.row4 {
+   width: 100%;
+   height: 300px;
+   margin-right: -20px;
+   margin-left: -20px;
+   display: -ms-flexbox;
+   display: flex;
+   -ms-flex-wrap: wrap;
+   flex-wrap: wrap;
+   padding: 0px;
 }
 
-p {
-   font-family: 'Montserrat', sans-serif;
-   line-height: 30px;
-   font-size: 1.3em;
-   font-weight: 400;
+.row5 {
+   width: 100%;
+   height: auto;
+   margin-right: -20px;
+   margin-left: -20px;
+   display: -ms-flexbox;
+   display: flex;
+   -ms-flex-wrap: wrap;
+   flex-wrap: wrap;
+   padding: 20px;
+   margin-bottom: 30px;
+}
+
+.row6 {
+   width: 100%;
+   height: auto;
+   margin-right: -20px;
+   margin-left: -20px;
+   display: -ms-flexbox;
+   display: flex;
+   -ms-flex-wrap: wrap;
+   flex-wrap: wrap;
+   padding: 20px;
+   padding-bottom: 40px;
+}
+
+.row7 {
+   width: 100%;
+   height: 400px;
+   margin-right: -15px;
+   margin-left: -15px;
+   padding: 0px 20px;
+   background-size: cover;
+   text-align: center;
+}
+
+.headerMain {
+   position: relative;
+}
+
+.whatWeDo {
+   margin-top: 20px;
+   margin-right: -25px;
+   margin-left: -25px;
+   position: relative;
+}
+
+.whatWeDo h1 {
+   margin: 10px;
+   font-family: Signika Negative, sans-serif;
+   text-align: center;
+}
+
+.whatWeDo img {
+   margin-top: 40px;
+   height: 100px;
+   width: auto;
+   display: block;
+   margin: auto;
+   padding-top: 10%;
+}
+
+.portfolio {
+   position: relative;
+   width: 60%;
+   margin: auto;
+}
+
+.portfolio h1 {
+   margin: 10px;
+   font-family: Signika Negative, sans-serif;
+   text-align: center;
+   font-weight: bold;
+}
+
+.portfolio img {
+   height: auto;
+   width: auto;
+   margin: auto;
+   display: block;
+}
+
+.contactUs {
+   margin-top: 20px;
+   position: relative;
+}
+
+footer {
+   height: 150px;
+   margin-top: 20px;
+   width: 100%;
+   text-align: center;
+   padding: 10px;
+   position: relative;
+}
+
+.footer ul li {
+   display: inline-block;
+   margin: 5px;
+}
+
+.toggleDesignLogo {
+   display: none;
+   text-align: center;
+   font-family: Signika Negative, sans-serif;
+}
+
+.toggleDevLogo {
+   display: none;
+   text-align: center;
+   font-family: Signika Negative, sans-serif;
+}
+
+.toggleProductLogo {
+   display: none;
+   text-align: center;
+   font-family: Signika Negative, sans-serif;
+}
+
+#inlineDesign {
+   text-align: center;
+}
+
+#inlineDev {
+   text-align: center;
+}
+
+#inlineProduct {
+   text-align: center;
+}
+
+#inline {
+   text-align: center;
+}
+
+#headerImg2 {
+   padding-top: 15%;
+}
+
+h1 {
+   font-weight: bold;
+   font-family: Signika Negative, sans-serif;
+}
+
+.submit {
+   float: left;
+   border-radius: 2px;
+}
+
+#work1Text {
+   display: none;
+   text-align: center;
+   font-family: Signika Negative, sans-serif;
+   border-radius: 5px;
 }
