@@ -134,7 +134,7 @@
 
 footer {
    height: 150px;
-   margin-top: 20px;
+   margin-top: 5%;
    width: 100%;
    text-align: center;
    padding: 10px;
@@ -184,13 +184,11 @@ footer {
    padding-top: 15%;
 }
 
-h1 {
-   font-weight: bold;
-   font-family: Signika Negative, sans-serif;
-}
 
 .submit {
-   float: left;
+   margin-top: 5%;
+   margin-bottom: 2%;
+   /* float: left; */
    border-radius: 2px;
 }
 
@@ -200,3 +198,29 @@ h1 {
    font-family: Signika Negative, sans-serif;
    border-radius: 5px;
 }
+
+#subscribeForm {
+   background-image: url("../images/c_image.jpg");
+   background-size: cover;
+   text-align: center;
+   color: white;
+}
+
+ #nameInput, #exampleFormControlInput1, #messageInput{
+   background-color:transparent;
+   margin-top: 1%;
+}
+
+.form-row ::placeholder {
+   color: white;
+}
+
+.form-control{
+   width: 50%;
+}
+.form-control-lg{
+   height: 200px;
+   width: 100%;
+}
+
+

@@ -32,8 +32,8 @@ $(document).ready(function () {
          $("#work1Text").show();
       });
    });
+   // alert('it works')
 });
-alert('it works')
 $(document).ready(function () {
    $('.submit').click(function (event) {
       event.preventDefault();
@@ -51,13 +51,14 @@ $(document).ready(function () {
       if (name.length > 2) {
          alert(name);
       } else {
-         console.log('name invalid')
+         alert('name invalid')
       }
       if (message.length > 2) {
          document.getElementById('status').innerText = "Thank you for your message!"
-      } else {
-         document.getElementById('status').innerText = "Null"
       }
+      // else {
+      //    document.getElementById('status').innerText = "Null"
+      // }
    });
 
 });
