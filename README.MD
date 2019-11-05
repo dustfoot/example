@@ -10,11 +10,7 @@ Delani-studio is a web application that illustrates what projects we do as a des
 
 ## Setup/Installation Requirements
 
-To start using this project use the following commands:
-1.git clone
-2.cd delani-studio (to navigate to project directory)
-3.atom . (to open in atom editor)
-4.code . (to open in Vcode editor)
+To start using this project use the following commands: 1.`git clone https://github.com/dustfoot/example.git` 2.`cd delani-studio` (to navigate to project directory) 3.`atom .` (to open in atom editor) 4.`code .` (to open in Vscode editor)
 
 ## BDD
 
