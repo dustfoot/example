@@ -1,184 +1,297 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
+	<head>
+		<script
+			src="https://code.jquery.com/jquery-3.4.1.min.js"
+			type="text/javascript"
+		></script>
+		<script
+			src="https://code.jquery.com/jquery-3.4.1.min.js"
+			integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+			crossorigin="anonymous"
+		></script>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link
+			href="https://fonts.googleapis.com/css?family=Signika+Negative"
+			rel="stylesheet"
+		/>
 
-<head>
-	<script src="https://code.jquery.com/jquery-3.4.1.min.js" type="text/javascript"></script>
-	<script src="https://code.jquery.com/jquery-3.4.1.min.js"
-		integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<link href="https://fonts.googleapis.com/css?family=Signika+Negative" rel="stylesheet">
-
-	<!-- 
+		<!-- 
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
 		integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
 		integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
 	</script> -->
-	<link rel="stylesheet" href="css/bootstrap.css" type="text/css">
-	<link rel="stylesheet" href="css/style.css" type="text/css">
-	<title>Delanistudio</title>
-</head>
+		<link rel="stylesheet" href="css/bootstrap.css" type="text/css" />
+		<link rel="stylesheet" href="css/style.css" type="text/css" />
+		<title>Delanistudio</title>
+	</head>
 
-<body>
-	<div class="headerMain">
-		<div class="container">
-			<div class="jumbotron jumbotron-fluid" style="background-image: url(images/h_img.jpg)" class="img-fluid">
-				<div class="row1">
-					<img id="headerImg1" src="images/logo.png" alt="Delani_logo">
-					<h1>WELCOME</h1>
-					<p class="paragraph1">TO DELANI STUDIO</p>
-					<p>AMAZING PEOPLE ARE MAKING AMAZING DESIGNS IN A FUN ENVIRONMENT</p>
-					<img id="headerImg2" src="images/mouse_click.png" alt="Mouse_click">
-				</div>
-			</div>
-		</div>
-	</div>
-	<div class="aboutUs">
-		<div class="container">
-			<div class="row">
-				<h1>ABOUT US</h1>
-				<p class="paragraph2">When you work with us you are part of a team of committed collaboratos. All aspects of
-					our software development process are intergrated, iknteractive <br>and agile</p>
-				<p class="paragraph2">Our approach unifies design, development and product management to create exceptional
-					products.</p>
-				<p class="paragraph2">We start each project by understanding your business goals, the user's needs and the
-					product requiremnets </p>
-				<p class="paragraph2">Then we help translate them into effective and elegant solutions.</p>
-			</div>
-		</div>
-	</div>
-	<div class="services">
-		<div class="container">
-			<div class="row3" style="background-image: url( images/s_img.jpg)">
-				<h1>SERVICES</h1>
-				<p class=" paragraph2">Before we sign a contract or write a line of code our team will spend the necessary
-					time needed to understand your product vision</p>
-				<p class="paragraph2">The outcome of this scoping session is a proposal or high-level statement of work</p>
-				<p class="paragraph2">based on your requirments, we can provide a complete offering or just the pieces you
-					need.</p>
-			</div>
-		</div>
-	</div>
-	<div class="whatWeDo">
-		<h1>WHAT WE DO</h1>
-		<div class="container">
-			<div class="row4">
-				<div class="col-lg-4 col-md-4 col-sm-12">
-					<p id="inlineDesign"><img id="designLogo" src="images/design_icon.png" class="img-fluid"
-							alt="Dev_logo">DESIGN</p>
-					<div class="toggleDesignLogo">
-						<h1>Design</h1>
-						<p>Our design practice offers a full range of services including brand strategy, interaction and
-							visual design and user experience testing. Throughout your project, our designers create and
-							implement visual design and workflows, solicit
-							user feedback and work with you to make sure what gets built is what is needed.</p>
-					</div>
-				</div>
-				<div class="col-lg-4 col-md-4 col-sm-12">
-					<p id="inlineDev"><img id="devLogo" src="images/dev_icon.png" class="img-fluid"
-							alt="Dev_logo">DEVELOPMENT</p>
-					<div class="toggleDevLogo">
-						<h1>Development</h1>
-						<p>Our design practice offers a full range of services including brand strategy, interaction and
-							visual design and user experience testing. Throughout your project, our designers create and
-							implement visual design and workflows, solicit
-							user feedback and work with you to make sure what gets built is what is needed.</p>
-					</div>
-				</div>
-				<div class="col-lg-4 col-md-4 col-sm-12">
-					<p id="inlineProduct"><img id="productLogo" src="images/product_icon.png" class="img-fluid "
-							alt="Product_logo">PRODUCT MANAGEMENT</p>
-					<div class="toggleProductLogo">
-						<h1>Product Management</h1>
-						<p>Planning and development is iterative. Because we are constantly coding and testing, the products
-							we build are always ready to go live. This iterative process allows for changes as business
-							requirements evolve.</p>
+	<body>
+		<div class="headerMain">
+			<div class="container-fluid">
+				<div
+					class="jumbotron jumbotron-fluid"
+					style="background-image: url(images/h_img.jpg)"
+					class="img-fluid"
+				>
+					<div class="row1">
+						<img id="headerImg1" src="images/logo.png" alt="Delani_logo" />
+						<h1>WELCOME</h1>
+						<p class="paragraph1">TO DELANI STUDIO</p>
+						<p>
+							AMAZING PEOPLE ARE MAKING AMAZING DESIGNS IN A FUN ENVIRONMENT
+						</p>
+						<img
+							id="headerImg2"
+							src="images/mouse_click.png"
+							alt="Mouse_click"
+						/>
 					</div>
 				</div>
 			</div>
 		</div>
-	</div>
-	<div class="portfolio">
-		<h1>PORTFOLIO</h1>
-		<div class="container">
-			<div class="row5">
-				<div class="col-lg-3 col-md-3 col-sm-12">
-					<div class="work1Logo"><img src="images/work1.jpg" class="img-fluid" alt="">
-						<h3 id="work1Text">Work1 Text</h3>
-					</div>
-				</div>
-				<div class="col-lg-3 col-md-3 col-sm-12">
-					<div class="work2Logo"><img src="images/work2.jpg" class="img-fluid" alt=""></div>
-				</div>
-				<div class="col-lg-3 col-md-3 col-sm-12">
-					<div class="work3Logo"><img src="images/work3.jpg" class="img-fluid" alt=""></div>
-				</div>
-				<div class="col-lg-3 col-md-3 col-sm-12">
-					<div class="work4Logo"><img src="images/work4.jpg" class="img-fluid" alt=""></div>
-				</div>
-			</div>
-			<div class="row6">
-				<div class="col-lg-3 col-md-3 col-sm-12">
-					<div class="work5Logo"><img src="images/work5.jpg" class="img-fluid" alt=""></div>
-				</div>
-				<div class="col-lg-3 col-md-3 col-sm-12">
-					<div class="work6Logo"><img src="images/work6.jpg" class="img-fluid" alt=""></div>
-				</div>
-				<div class="col-lg-3 col-md-3 col-sm-12">
-					<div class="work7Logo"><img src="images/work7.jpg" class="img-fluid" alt=""></div>
-				</div>
-				<div class="col-lg-3 col-md-3 col-sm-12">
-					<div class="work8Logo"><img src="images/work8.jpg" class="img-fluid" alt=""></div>
+		<div class="aboutUs">
+			<div class="container">
+				<div class="row">
+					<h1>ABOUT US</h1>
+					<p class="paragraph2">
+						When you work with us you are part of a team of committed
+						collaboratos. All aspects of our software development process are
+						intergrated, iknteractive <br />and agile
+					</p>
+					<p class="paragraph2">
+						Our approach unifies design, development and product management to
+						create exceptional products.
+					</p>
+					<p class="paragraph2">
+						We start each project by understanding your business goals, the
+						user's needs and the product requiremnets
+					</p>
+					<p class="paragraph2">
+						Then we help translate them into effective and elegant solutions.
+					</p>
 				</div>
 			</div>
 		</div>
-	</div>
-	<div class="contactUs">
-		<div class="container">
-			<div class="row7" style="background-image: url(images/c_img.jpg)" class="img-fluid">
-				<h1>CONTACT US</h1>
-				<form method="POST" id="subscribeForm">
-					<div class="form-row">
-						<div class="form-group col-md-6">
-							<input type="text" class="form-control" id="nameInput" placeholder="Name">
-						</div>
-						<div class="form-group col-md-6">
-							<input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Email">
-						</div>
-						<div class="form-group">
-							<textarea class="form-control form-control-lg" id="messageInput" rows=""
-								placeholder="Your message here"></textarea>
+		<div class="services">
+			<div class="container">
+				<div class="row3" style="background-image: url( images/s_img.jpg)">
+					<h1>SERVICES</h1>
+					<p class=" paragraph2">
+						Before we sign a contract or write a line of code our team will
+						spend the necessary time needed to understand your product vision
+					</p>
+					<p class="paragraph2">
+						The outcome of this scoping session is a proposal or high-level
+						statement of work
+					</p>
+					<p class="paragraph2">
+						based on your requirments, we can provide a complete offering or
+						just the pieces you need.
+					</p>
+				</div>
+			</div>
+		</div>
+		<div class="whatWeDo">
+			<h1>WHAT WE DO</h1>
+			<div class="container">
+				<div class="row4">
+					<div class="col-lg-4 col-md-4 col-sm-12">
+						<p id="inlineDesign">
+							<img
+								id="designLogo"
+								src="images/design_icon.png"
+								class="img-fluid"
+								alt="Dev_logo"
+							/>DESIGN
+						</p>
+						<div class="toggleDesignLogo">
+							<h1>Design</h1>
+							<p>
+								Our design practice offers a full range of services including
+								brand strategy, interaction and visual design and user
+								experience testing. Throughout your project, our designers
+								create and implement visual design and workflows, solicit user
+								feedback and work with you to make sure what gets built is what
+								is needed.
+							</p>
 						</div>
 					</div>
-					<button type="button" class="submit">Submit</button>
-				</form>
-				<div id="status"></div>
+					<div class="col-lg-4 col-md-4 col-sm-12">
+						<p id="inlineDev">
+							<img
+								id="devLogo"
+								src="images/dev_icon.png"
+								class="img-fluid"
+								alt="Dev_logo"
+							/>DEVELOPMENT
+						</p>
+						<div class="toggleDevLogo">
+							<h1>Development</h1>
+							<p>
+								Our design practice offers a full range of services including
+								brand strategy, interaction and visual design and user
+								experience testing. Throughout your project, our designers
+								create and implement visual design and workflows, solicit user
+								feedback and work with you to make sure what gets built is what
+								is needed.
+							</p>
+						</div>
+					</div>
+					<div class="col-lg-4 col-md-4 col-sm-12">
+						<p id="inlineProduct">
+							<img
+								id="productLogo"
+								src="images/product_icon.png"
+								class="img-fluid "
+								alt="Product_logo"
+							/>PRODUCT MANAGEMENT
+						</p>
+						<div class="toggleProductLogo">
+							<h1>Product Management</h1>
+							<p>
+								Planning and development is iterative. Because we are constantly
+								coding and testing, the products we build are always ready to go
+								live. This iterative process allows for changes as business
+								requirements evolve.
+							</p>
+						</div>
+					</div>
+				</div>
 			</div>
 		</div>
-	</div>
-	<footer>
-		<div class="footer">
-			<ul>
-				<li><a href="#"><img src="images/behance.png" alt=""></a></li>
-				<li><a href="#"><img src="images/dribble.png" alt=""></a></li>
-				<li><a href="#"><img src="images/facebook.png" alt=""></a></li>
-				<li><a href="#"><img src="images/flickr.png" alt=""></a></li>
-				<li><a href="#"><img src="images/g_plus.png" alt=""></a></li>
-				<li><a href="#"><img src="images/pinterest.png" alt=""></a></li>
-				<li><a href="#"><img src="images/you_tube.png" alt=""></a></li>
-				<li><a href="#"><img src="images/skype.png" alt=""></a></li>
-				<li><a href="#"><img src="images/stumble_upon.png" alt=""></a></li>
-			</ul>
-			<p class="paragraph2">DELANI STUDIO <br>2019</p>
+		<div class="portfolio">
+			<h1>PORTFOLIO</h1>
+			<div class="container">
+				<div class="row5">
+					<div class="col-lg-3 col-md-3 col-sm-12">
+						<div class="work1Logo">
+							<img src="images/work1.jpg" class="img-fluid" alt="" />
+							<h3 id="work1Text">Work1 Text</h3>
+						</div>
+					</div>
+					<div class="col-lg-3 col-md-3 col-sm-12">
+						<div class="work2Logo">
+							<img src="images/work2.jpg" class="img-fluid" alt="" />
+						</div>
+					</div>
+					<div class="col-lg-3 col-md-3 col-sm-12">
+						<div class="work3Logo">
+							<img src="images/work3.jpg" class="img-fluid" alt="" />
+						</div>
+					</div>
+					<div class="col-lg-3 col-md-3 col-sm-12">
+						<div class="work4Logo">
+							<img src="images/work4.jpg" class="img-fluid" alt="" />
+						</div>
+					</div>
+				</div>
+				<div class="row6">
+					<div class="col-lg-3 col-md-3 col-sm-12">
+						<div class="work5Logo">
+							<img src="images/work5.jpg" class="img-fluid" alt="" />
+						</div>
+					</div>
+					<div class="col-lg-3 col-md-3 col-sm-12">
+						<div class="work6Logo">
+							<img src="images/work6.jpg" class="img-fluid" alt="" />
+						</div>
+					</div>
+					<div class="col-lg-3 col-md-3 col-sm-12">
+						<div class="work7Logo">
+							<img src="images/work7.jpg" class="img-fluid" alt="" />
+						</div>
+					</div>
+					<div class="col-lg-3 col-md-3 col-sm-12">
+						<div class="work8Logo">
+							<img src="images/work8.jpg" class="img-fluid" alt="" />
+						</div>
+					</div>
+				</div>
+			</div>
 		</div>
-	</footer>
+		<div class="contactUs">
+			<div class="container">
+				<div
+					class="row7"
+					style="background-image: url(images/c_img.jpg)"
+					class="img-fluid"
+				>
+					<h1>CONTACT US</h1>
+					<form method="POST" id="subscribeForm">
+						<div class="form-row">
+							<div class="form-group col-md-6">
+								<input
+									type="text"
+									class="form-control"
+									id="nameInput"
+									placeholder="Name"
+								/>
+							</div>
+							<div class="form-group col-md-6">
+								<input
+									type="email"
+									class="form-control"
+									id="exampleFormControlInput1"
+									placeholder="Email"
+								/>
+							</div>
+							<div class="form-group">
+								<textarea
+									class="form-control form-control-lg"
+									id="messageInput"
+									rows=""
+									placeholder="Your message here"
+								></textarea>
+							</div>
+						</div>
+						<button type="button" class="submit">Submit</button>
+					</form>
+					<div id="status"></div>
+				</div>
+			</div>
+		</div>
+		<footer>
+			<div class="footer">
+				<ul>
+					<li>
+						<a href="#"><img src="images/behance.png" alt=""/></a>
+					</li>
+					<li>
+						<a href="#"><img src="images/dribble.png" alt=""/></a>
+					</li>
+					<li>
+						<a href="#"><img src="images/facebook.png" alt=""/></a>
+					</li>
+					<li>
+						<a href="#"><img src="images/flickr.png" alt=""/></a>
+					</li>
+					<li>
+						<a href="#"><img src="images/g_plus.png" alt=""/></a>
+					</li>
+					<li>
+						<a href="#"><img src="images/pinterest.png" alt=""/></a>
+					</li>
+					<li>
+						<a href="#"><img src="images/you_tube.png" alt=""/></a>
+					</li>
+					<li>
+						<a href="#"><img src="images/skype.png" alt=""/></a>
+					</li>
+					<li>
+						<a href="#"><img src="images/stumble_upon.png" alt=""/></a>
+					</li>
+				</ul>
+				<p class="paragraph2">DELANI STUDIO <br />2019</p>
+			</div>
+		</footer>
 
-	<!-- 
+		<!-- 
 	<script src="https://code.jquery.com/jquery-3.4.1.min.js"
 		integrity="sha256-DYZMCC8HTC+QDr5QNaIcfR7VSPtcISykd+6eSmBW5qo=" crossorigin="anonymous"></script>
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.1/jquery.min.js"></script> -->
-	<script src="js/main.js" type="text/javascript"></script>
-</body>
-
+		<script src="js/main.js" type="text/javascript"></script>
+	</body>
 </html>
